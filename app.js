@@ -1,4 +1,4 @@
-import React from 'react';
+code .import React from 'react';
 import ReactDOM from 'react-dom';
 
 
@@ -28,6 +28,20 @@ const myList = (
     </li>
   </ul>
 )
+const myList2 = (
+  <ul>
+    <li>
+      Red
+    </li>
+     <li>
+      Blue
+    </li>
+     <li>
+      Green
+    </li>
+  </ul>
+)
+
 
 ReactDOM.render(
   myList,
